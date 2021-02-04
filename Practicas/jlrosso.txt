@@ -1,0 +1,36 @@
+José Luis Rosso
+which git
+git config --global user.name jlrosso
+git config --global user.email jlrosso30@hotmail.com
+ls -l /usr/bin/git
+ls -l
+which .gitconfig
+ls -l /etc
+ls -l /etc |more
+ls -la /usr/bin/
+ls -la /usr/bin/*.git*
+ls -la
+pwd
+ls -la *.git
+ls -la *.git*
+ls -la .git*
+cat .gitconfig
+cd /.ssh
+"ssh-keygen -t rsa -C jlrosso30@hotmail.com"
+ssh-keygen -t rsa -C jlrosso30@hotmail.com
+cat .ssh
+ls -la .ssh/
+xclip -sel clip < .ssh/id_rsa.pub 
+cat .ssh/id_rsa.pub 
+ssh -T git@github.com
+ls -la *.txt
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD0FAWDdV9+7rfY4VtozJG80Tp7b5a57dj3hkIvxu5vsUSS/8ddYpbao69X4XQSk18hEq9R8wIA6y4OuRO7SqOVmRJoW2XmZfr1t0zcyHrlWnTA/26Rmmtv/k/rsoXR1qqGbP35z83UUTbi9BP8m19fRottjPwhsaM0gFzgOsPdSZwxoFFn7/JH2EpogiSszseut/nPXopS4WtmeuLnfwnkcEY6V7gJ55CFuD24xEfVrd9oILQoxYFHWy4jl5BplCsWvApGMTjNwfXKzdfmDI5KVeGa/rCqSd/YOlsuqPMnB2SPycCoyUp84Qijq8o3esnXRfrsH4i/aMIffESUCxld jlrosso30@hotmail.com
+history -w jlrosso.txt
+ls *.txt
+ssh
+ssh -T git@github.com
+ssh -T git@github.com > ./jlrosso.txt
+history -w jlrosso.txt 
+Hi jlrosso! You've successfully authenticated, but GitHub does not provide shell access.
+
+history -w jlrosso.txt 

@@ -1,0 +1,33 @@
+﻿history	    						//Prueba comando history	
+
+Estibaliz Diez    					//Mi nombre 
+which git	  					//Tengo ya instalado github	
+
+git config --global user.name Estibaliz Diez       	//Establezo mi nombre
+
+git config --global user.email ediezvega@gmail.com 	//Estableco mi correo
+
+ls .gitconfig    					//Comprobación existe .gitconfi
+
+cd ~/ssh
+ssh-keygen -t rsa -C ediezvega@gmail.com    		//Genero las clave
+xclip -sel clip < ~/.ssh/id_rsa.pub   			//No tengo instalado xclip
+
+sudo apt-get install xclip	         		//Instalo xclip
+
+xclip -sel clip < ~/.ssh/id_rsa.pub  			//Copio la clave
+
+cd .ssh                    				//Existe el directorio ssh
+
+ls
+ssh -T git@github.com   				//Me conecto a github 
+history -w ediezvega.txt   				//Redirecciono la salida del history
+
+
+//Clave obtenida
+sh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBcmgD1czsZBXhldzMqTwyBni9JdgKIcVANhtob20AtVEaWdFQTWgkYQfWb6/vgAmWXl0opPCw3b914safsTTTX1aTVRxjjiI74G25+u2HgVC0C9RYVhtfpvmvOj0Y8HFTVWqS33ka+9fA7nkRtXwtG+zHhMnQ1Rlgzf+Dd9IV02u5Um0+a8y5/zvAhgIxQSok3y86p1hKp0pD9bZMUi91kfOFRM24lGFydFoQxqKQhOZGhITN+DW88i/i86D+TXZ163zNfgarKQg3uHM1FxfIvYf0KlaMYyB6uAmpAv7oMeOW5xzt2nJOs+2KzlwUF5//QqSfZGR+xKPmlnc4J2R1 ediezvega@gmail.com
+
+//Salida que se muestra para ver que me conecto a github
+esti@esti-vmlinux:~/.ssh$ ssh -T git@github.com
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+Hi ediezvega/my_repo! You've successfully authenticated, but GitHub does not provide shell access.

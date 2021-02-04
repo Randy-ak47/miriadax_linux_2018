@@ -1,0 +1,11 @@
+TiTo Otero
+which git
+git config --global user.name "ttotero"
+git config --global user.email "ttotero@gmail.com"
+cat .gitconfig 
+pwd
+cd ~/.ssh
+cat id_rsa.pub 
+xclip -sel clip < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+history -w ttotero.txt

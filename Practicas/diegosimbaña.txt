@@ -1,0 +1,34 @@
+diego armando simbaña
+git version
+which git
+git config --list
+git config
+git config -l
+git -l
+git config --global user.name "diego simbaña"
+git config --global user.email "d.simbana85@outlook.com"
+ls -al
+nano .gitconfig 
+fg
+cd ~/.ssh
+ssh-keygen -t rsa -C d.simbana85@outlook.com
+cd ~/.ssh
+ls
+cat id_rsa.pub 
+xclip-set clip < ~/.ssh/id_rsa.pub 
+xclip-sel clip < ~/.ssh/id_rsa.pub 
+xclip -sel clip < ~/.ssh/id_rsa.pub 
+apt install xclip
+sudo apt install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub 
+cat id_rsa.pub 
+ssk-keygen
+ssh-keygen
+ssh -T git@github.com
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+Hi Randy-ak47! You've successfully authenticated, but GitHub does not provide shell access.
+history 
+history -w diegosimbaña.txt
